@@ -1,30 +1,30 @@
+1. Clone o repositório para sua máquina local:
 
-1. Clone the repository to your local machine:
-
-    ```
+    ```bash
     git clone https://github.com/fkozak/web-mobile.git
     ```
 
-2. Change to the project directory:
+2. Acesse o diretório do projeto:
 
-    ```
+    ```bash
     cd web-mobile
     ```
 
-3. Install the project dependencies using pip:
+3. Instale as dependências do projeto usando o pip:
 
-    ```
+    ```bash
     pip install -r requirements.txt
     ```
 
-4. Create the PostgreSQL database by running migrations:
+4. Crie o banco de dados PostgreSQL executando as migrações:
 
-    ```
+    ```bash
     python manage.py migrate
     ```
 
-5. Start the development server:
+5. Inicie o servidor de desenvolvimento:
 
-    ```
+    ```bash
     python manage.py runserver
     ```
+ 
